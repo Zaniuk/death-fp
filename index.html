@@ -20,20 +20,20 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sec-2">Albums</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Members</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#albums-header">Albums</a>
-                    </li>
+                      <a class="nav-link" href="#sec-3">Members</a>
+                  </li>
                 </ul>
             </div>
         </div>
       </nav>
 
       
-      <header class="main-header">
+      <header class="main-header" id="sec-1" >
           <div class="background-overlay py-5">
             <div class="container">
                 <div class="row">
@@ -58,7 +58,7 @@
           </div>
           
       </header>
-      <section id="albums" class="albums">
+      <section class="albums" id="sec-2" >
         <div class="container text-white">
           <center><h1 class="pt-5">Albums</h1></center>
           <div class="row">
@@ -66,59 +66,78 @@
               <img class="img-fluid" src="img/albums/1.jpg"  alt="">
               <h3>Scream Bloody Gore</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, praesentium.</p>
+              <button type="button" class="btn btn-outline-warning">Amazon</button>
+              <button type="button" class="btn btn-outline-success">Spotify</button>
             </div>
             <div class="album col-md-4 py-5 text-center">
               <img class="img-fluid" src="img/albums/2.jpg"  alt="">
               <h3>Leprosy</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, mollitia.</p>
+              <button type="button" class="btn btn-outline-warning">Amazon</button>
+              <button type="button" class="btn btn-outline-success">Spotify</button>
             </div>
             <div class="album col-md-4 py-5 text-center">
               <img class="img-fluid" src="img/albums/3.jpg"  alt="">
               <h3>Spiritual Healing</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, mollitia.</p>
+              <button type="button" class="btn btn-outline-warning">Amazon</button>
+              <button type="button" class="btn btn-outline-success">Spotify</button>
             </div>
             <div class="album col-md-4 py-5 text-center">
               <img class="img-fluid" src="img/albums/4.jpg"  alt="">
               <h3>Individual Though Patterns</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, praesentium.</p>
+              <button type="button" class="btn btn-outline-warning">Amazon</button>
+              <button type="button" class="btn btn-outline-success">Spotify</button>
             </div>
             <div class="album col-md-4 py-5 text-center">
               <img class="img-fluid" src="img/albums/5.jpg"  alt="">
               <h3>Symbolic</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, mollitia.</p>
+              <button type="button" class="btn btn-outline-warning">Amazon</button>
+              <button type="button" class="btn btn-outline-success">Spotify</button>
             </div>
             <div class="album col-md-4 py-5 text-center">
               <img class="img-fluid" src="img/albums/6.jpg"  alt="">
               <h3>The Sound of Perseverance</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, mollitia.</p>
+              <button type="button" class="btn btn-outline-warning">Amazon</button>
+              <button type="button" class="btn btn-outline-success">Spotify</button>
             </div>
             
           </div>
         </div>
       </section>
-      <section id="members" class="members">
-        <div class="container">
-            <center><h1 class="text-white pt-5">Members</h1></center>
-            <div class="members py-5 row  justify-content-center align-items-center text-white">
-              <div class="col-md-3 text-center member-card">
+      <section class="members" id="sec-3" >
+        <div class="container ">
+            <center class="text-white pt-5">
+              <h1>Members:</h1>
+              <p>(Last lineup)</p>
+            </center>
+            <div class="py-5 row  justify-content-center align-items-center text-light">
+              <div class="col-md-3 text-center member-card py-5">
                 <img class="img-fluid rounded-circle" src="img/members/shannon.jfif" alt="">
                 <h3>Name</h3>
-                <h5>Lorem ipsum dolor sit.</h5>
+                <hr class="solid bg-light">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, pariatur.</h6>
               </div>
-              <div class="col-md-3 text-center member-card">
+              <div class="col-md-3 text-center member-card py-5">
                 <img class="img-fluid rounded-circle" src="img/members/shannon.jfif" alt="">
                 <h3>Name</h3>
-                <h5>Lorem ipsum dolor sit.</h5>
+                <hr class="solid bg-light">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, pariatur.</h6>
               </div>
-              <div class="col-md-3 text-center member-card">
+              <div class="col-md-3 text-center member-card py-5">
                 <img class="img-fluid rounded-circle" src="img/members/shannon.jfif" alt="">
                 <h3>Name</h3>
-                <h5>Lorem ipsum dolor sit.</h5>
+                <hr class="solid bg-light">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, pariatur.</h6>
               </div>
-              <div class="col-md-3 text-center member-card">
+              <div class="col-md-3 text-center member-card py-5">
                 <img class="img-fluid rounded-circle" src="img/members/shannon.jfif" alt="">
                 <h3>Name</h3>
-                <h5>Lorem ipsum dolor sit.</h5>
+                <hr class="solid bg-light">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, pariatur.</h6>
               </div>
             </div>
           
@@ -127,9 +146,37 @@
         </div>
 
       </section>
-
+      <section id="sec-4" class="about bg-dark text-white">
+        <div class="overlay2">
+        <div class="container">
+          <center>
+            <h1 class="py-5">Un poco de historia...</h1>
+          </center>
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/death.jpg" alt="">
+              <p>Death en México (1989), de izquierda a derecha:
+                 Terry Butler, Paul Masvidal, mánager Eric Greif, Bill Andrews, y Chuck Schuldiner.</p>
+            </div>
+            <div class="col-md-6">
+              <p>Death fue una banda estadounidense de death metal, género al cual habrían dado el nombre
+                 junto a Possessed y su primer demo Death Metal. Considerada como una de las principales
+                  bandas pioneras del género, fue fundada en 1983 por su vocalista, guitarrista y principal 
+                  compositor Chuck Schuldiner. La banda se disolvió tras la muerte de este, a finales del 2001 a
+                   causa de una neumonía asociada al cáncer.
+                  En 2013 los integrantes de la era del disco Human volvieron
+                 a juntarse, rindiendo tributo a su difunto líder Chuck Schuldiner, para la realización
+                  de una serie de conciertos a favor de la Fundación Sweet Relief en América y Europa.</p>
+            </div>
+          </div>
+          <div class="py-5" ></div>
+        </div>
+      </div>
+    </div>
+      </section>
 
     <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

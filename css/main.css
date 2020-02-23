@@ -18,10 +18,25 @@
 
 .member-card{
     border-radius: 25px;
-    border: 2px solid #b0bec5;
-    margin: 15px;
+    border: 1px solid #b0bec5;
+    margin: 10px;
+    
     
 }
 .members{
-    background-color: #37474f ;
+    background: rgb(72,84,96);
+    background: radial-gradient(circle, rgba(72,84,96,1) 0%, rgba(30,39,46,1) 100%);
+}
+
+.member-card img{
+    border: 1px solid #37474f;
+}
+
+.about{
+    background: url(../img/death2.jpg);
+    background-size: cover;
+}
+
+.overlay2 {
+    background-color: rgba(30, 39, 46, 0.9);
 }
